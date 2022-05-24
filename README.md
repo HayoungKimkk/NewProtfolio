@@ -1,3 +1,3 @@
-Init README.md
+Kimhayoung's Portfolio
 
-my portfolio project reference to Takuta Matsuyama's guide and [homepage](https://www.craftz.dog/)
+my portfolio project written with reference to Takuta Matsuyama's guide and [homepage](https://www.craftz.dog/)
