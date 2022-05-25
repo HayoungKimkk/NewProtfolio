@@ -1,21 +1,15 @@
-# Takuya's Homepage
+# 김하영 포트폴리오
 
-[https://www.craftz.dog/](https://www.craftz.dog/)
+이 [블로그](https://www.craftz.dog/)를 참조해서 작성한 포트폴리오.
 
-## Tutorial
-
-Watch how I built this website on YouTube:
-
-[![YouTube thumbnail](./doc/thumb.png)](https://www.youtube.com/watch?v=bSMZgXzC9AA)
-
-## Stack
+## 기술 스택
 
 - [Next.js](https://nextjs.org/) - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
 - [Chakra UI](https://chakra-ui.com/) - A simple, modular and accessible component library for React
 - [Three.js](https://threejs.org/) - 3D library for JavaScript
 - [Framer Motion](https://www.framer.com/motion/) - An animation library for React
 
-## Project structure
+## 프로젝트 구조
 
 ```
 $PROJECT_ROOT
@@ -33,13 +27,4 @@ $PROJECT_ROOT
 
 MIT License.
 
-You can create your own homepage for free without notifying me by forking this project under the following conditions:
-
-- Add a link to [my homepage](https://www.craftz.dog/)
-- Do not use the 3d voxel dog
-
----
-
-Looking for a Markdown note-taking app? Check out my app called Inkdrop:
-
-[![Inkdrop](https://github.com/craftzdog/dotfiles-public/raw/master/images/inkdrop.png)](https://www.inkdrop.app/)
+You can create your own homepage for free without notifying me.

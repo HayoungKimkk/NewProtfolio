@@ -13,12 +13,12 @@ const VoxelDesk = () => {
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
   const [_camera, setCamera] = useState()
-  const [target] = useState(new THREE.Vector3(-0.5, 1.2, 0))
+  const [target] = useState(new THREE.Vector3(0.6, 1, 0))
   const [initialCameraPosition] = useState(
     new THREE.Vector3(
-      20 * Math.sin(0.2 * Math.PI),
-      10,
-      20 * Math.cos(0.2 * Math.PI)
+      40 * Math.sin(0.2 * Math.PI),
+      100,
+      10 * Math.cos(0.2 * Math.PI)
     )
   )
   const [scene] = useState(new THREE.Scene())
@@ -53,7 +53,7 @@ const VoxelDesk = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.005 + 4.8
+      const scale = scH * 0.001 + 1.5
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
@@ -122,8 +122,8 @@ const VoxelDesk = () => {
   }, [renderer, handleWindowResize])
 
   return (
-    <DogContainer ref={refContainer}>{loading && <DogSpinner />}</DogContainer>
+    <DeskContainer ref={refContainer}>{loading && <DeskSpinner />}</DeskContainer>
   )
 }
 
-export default VoxelDog
+export default VoxelDesk
