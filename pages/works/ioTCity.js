@@ -4,7 +4,6 @@ import {
   Link,
   List,
   ListItem,
-  AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
@@ -12,7 +11,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Inkdrop">
+  <Layout title="IoTCity">
     <Container>
       <Title>
         인천스마트시티 IoT 플랫폼 <Badge>2020~2021</Badge>
@@ -36,6 +35,8 @@ const Work = () => (
           <span>C(Firmware), Python(Server)</span>
         </ListItem>
       </List>
+
+      <WorkImage src="/images/works/temp_eyecatch.png" alt="temp" />
 
     </Container>
   </Layout>
