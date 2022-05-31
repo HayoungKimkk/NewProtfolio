@@ -14,7 +14,7 @@ const Work = () => (
   <Layout title="IoTCity">
     <Container>
       <Title>
-        VR을 활용한 피란민 체험 게임 "Survival and Escape" <Badge>2022</Badge>
+        VR을 활용한 피란민 체험 게임 &#34Survival and Escape&#34 <Badge>2022</Badge>
       </Title>
       <P>
         최근 사회적으로 이슈가 되고 있는 전쟁 상황에서 피란민들이 느끼는 고통을 체험할 수 있는 VR 체험형 게임을 제작함. Unity를 이용해 게임을 제작하였으며 타겟 디바이스는 Meta Quest 2 를 이용하였음.
