@@ -21,22 +21,21 @@ const Work = () => (
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
-          <Link href="https://www.ismartcity.co.kr/default/mp3/mp3_sub1.php?sub=01/">
-          https://www.ismartcity.co.kr/ <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-        <ListItem>
           <Meta>Platform</Meta>
-          <span>Linux</span>
+          <span>Windows, Meta Queat 2</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>C(Firmware), Python(Server)</span>
+          <span>C#(Logic), Unity 2022(Game Engine)</span>
         </ListItem>
       </List>
 
       <WorkImage src="/images/works/temp_eyecatch.png" alt="temp" />
+
+      <p>
+        유니티를 애용해 3DVR 게임을 구현하는게 프로젝트의 목표.<br/>
+        VR이기에 가능한 접근법들을 위해 팀원들과 2주(80시간)이상의 브레인스토밍을 진행함.<br/>
+      </p>
 
     </Container>
   </Layout>

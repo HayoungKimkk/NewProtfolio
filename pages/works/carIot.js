@@ -21,18 +21,12 @@ const Work = () => (
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
-          <Link href="https://www.ismartcity.co.kr/default/mp3/mp3_sub1.php?sub=01/">
-          https://www.ismartcity.co.kr/ <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-        <ListItem>
           <Meta>Platform</Meta>
-          <span>Linux</span>
+          <span>Web 서비스</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>C(Firmware), Python(Server)</span>
+          <span>Python(Arduino), Javascript(Server)</span>
         </ListItem>
       </List>
 
