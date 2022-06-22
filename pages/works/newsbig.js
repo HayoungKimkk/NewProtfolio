@@ -9,7 +9,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Newsbig">
+  <Layout title="신문물">
     <Container>
       <Title>
         빅데이터 뉴스분석 서비스 &#34;신문물&#34; <Badge>2022</Badge>

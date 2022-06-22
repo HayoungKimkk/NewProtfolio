@@ -9,7 +9,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="IoTCity">
+  <Layout title="차키줘바">
     <Container>
       <Title>
         IoT 기반 차량공유 서비스 &#34;차키줘바&#34; <Badge>2022</Badge>
