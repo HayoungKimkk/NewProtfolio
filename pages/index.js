@@ -112,8 +112,8 @@ const Home = () => (
           삼성 청년 SW 아카데미 교육 수료
         </BioSection>
         <BioSection>
-          <BioYear>2022-지금</BioYear>
-          개발 진행중
+          <BioYear>2022-now</BioYear>
+          CJ올리브네트웍스, Business System Engineer 근무
         </BioSection>
       </Section>
 
